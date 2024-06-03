@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'doggoProject';
+  message = 'Le premier refuge danimaux en ligne';
 }
