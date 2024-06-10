@@ -1,0 +1,23 @@
+.navbar{
+    display : flex;
+    background-color :burlywood;
+    align-items:center;
+    justify-content: center;
+}
+
+.site-name{
+    padding:5px 30px;
+    color:brown;
+}
+
+.site-menu{
+    padding : 10px 30px;
+    justify-content: center;
+    align-items:center;
+    margin-left: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
