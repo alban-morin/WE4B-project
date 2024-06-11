@@ -1,16 +1,18 @@
 .navbar {
     display: flex;
-    background-color: #8B4513; /* Marron */
+    background-color: #426A5A; /* Marron */
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la navbar */
   }
   
   .site-name h1 {
     color: #FFFFFF; /* Blanc */
     font-size: 24px;
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
   }
   
   .site-menu {
@@ -24,13 +26,14 @@
     color: #FFFFFF; /* Blanc */
     margin: 0 15px;
     padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transition pour les effets */
+    border-radius: 5px; /* Bord arrondi */
   }
   
   .site-menu a:hover {
     background-color: #4CAF50; /* Vert */
     color: #FFFFFF; /* Blanc */
-    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
   }
   
   /* Responsive Design */

@@ -1,14 +1,104 @@
-.header{
-    height:280px;
-    padding: 30px 40 px;
-    background-color:cadetblue;
-    display:flex;
-}
-.site-slogan{
-    width:420px;
-    margin-left: 50px;
-    text-align: center;
-}
-h2{
-    font-size:45px;
-}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7FB685; /* Vert */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la header */
+    border-radius: 10px; /* Bords arrondis */
+    margin-bottom: 20px;
+  }
+  
+  .site-logo img {
+    height: 80px;
+    width: auto;
+    border-radius: 10px; /* Bords arrondis pour l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour l'image */
+  }
+  
+  .site-info {
+    text-align: left;
+  }
+  
+  .site-info h1 {
+    color: #FFFFFF; /* Blanc */
+    margin: 0;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
+  }
+  
+  .site-info h2 {
+    color: #FFFFFF; /* Blanc */
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
+  }
+  
+  .site-info p {
+    color: #FFFFFF; /* Blanc */
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-buttons .btn {
+    background-color: #FFFFFF; /* Blanc */
+    color: #4CAF50; /* Vert */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .header-buttons .btn:hover {
+    background-color: #388E3C; /* Vert plus foncé */
+    color: #FFFFFF; /* Blanc */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .site-logo img {
+      height: auto;
+      width: 100%;
+      max-width: 100px;
+      margin-bottom: 15px;
+    }
+  
+    .site-info {
+      margin-bottom: 15px;
+    }
+  
+    .site-info h1 {
+      font-size: 28px;
+    }
+  
+    .site-info h2 {
+      font-size: 22px;
+    }
+  
+    .site-info p {
+      font-size: 16px;
+    }
+  
+    .header-buttons {
+      flex-direction: column;
+      width: 100%;
+      gap: 5px;
+    }
+  
+    .header-buttons .btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
