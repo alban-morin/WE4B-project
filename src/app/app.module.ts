@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { FeaturesContainerComponent } from './features-container/features-container.component';
+import { CookieComponent } from './cookie/cookie.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { FeaturesContainerComponent } from './features-container/features-contai
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    FeaturesContainerComponent
+    FeaturesContainerComponent,
+    CookieComponent
   ],
   imports: [
     BrowserModule,
