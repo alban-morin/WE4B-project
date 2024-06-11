@@ -1,0 +1,22 @@
+.carousel-img {
+    height: 1000px; /* Ajustez cette valeur selon vos besoins */
+    object-fit: cover; /* Cette propriété permet de couvrir toute la hauteur sans déformer l'image */
+  }
+  .carousel-caption {
+     /* Positionnement absolu pour placer le texte sur l'image */
+    width: 100%; /* Largeur de 100% pour occuper toute la largeur de l'image */
+    height: 100%; /* Hauteur de 100% pour occuper toute la hauteur de l'image */
+    top: 50%; /* Positionnement vertical au milieu de l'image */
+    left: 50%; /* Positionnement horizontal au milieu de l'image */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2); /* Ajout d'un fond semi-transparent pour améliorer la visibilité */
+    color: white; /* Couleur du texte */
+    padding: 10px; /* Ajout de marge intérieure pour un meilleur espacement */
+}
+.carousel-inner {
+    position: relative; /* Assure que la position absolue de .carousel-caption est relative à .carousel-inner */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Ajustez cette valeur selon vos besoins */
+}
