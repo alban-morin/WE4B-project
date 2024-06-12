@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { FeaturesContainerComponent } from './features-container/features-container.component';
 import { CookieComponent } from './cookie/cookie.component';
+import { AnimalContainerComponent } from './animal-container/animal-container.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { CookieComponent } from './cookie/cookie.component';
     HomeComponent,
     FooterComponent,
     FeaturesContainerComponent,
-    CookieComponent
+    CookieComponent,
+    AnimalContainerComponent
   ],
   imports: [
     BrowserModule,
