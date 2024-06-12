@@ -5,8 +5,8 @@
     background-color: #7FB685; /* Vert */
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la header */
-    border-radius: 10px; /* Bords arrondis */
-    margin-bottom: 20px;
+     /* Bords arrondis */
+   
   }
   
   .site-logo img {
@@ -50,7 +50,7 @@
     color: #4CAF50; /* Vert */
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    
     transition: background-color 0.3s, color 0.3s;
   }
   
