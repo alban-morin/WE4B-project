@@ -4,13 +4,16 @@
       <div class="animal-info">
         <h2>
             {{ animal.nom }}
-            <span *ngIf="animal.espece === 'Chien'" style="display: inline-block;">🐶</span>
-            <span *ngIf="animal.espece === 'Chat'" style="display: inline-block;">🐱</span>
-            <span *ngIf="animal.espece === 'Perroquet'" style="display: inline-block;">🦜</span> 
-            <span *ngIf="animal.espece === 'Lapin'" style="display: inline-block;">🐰</span>
-            <span *ngIf="animal.espece === 'Furet'" style="display: inline-block;">🦦</span> 
-            <span *ngIf="animal.espece === 'Poisson Rouge'" style="display: inline-block;">🐠</span> 
-        </h2>        
+            <span [ngSwitch]="animal.espece">
+                <span *ngSwitchCase="'Chien'">🐶</span>
+                <span *ngSwitchCase="'Chat'">🐱</span>
+                <span *ngSwitchCase="'Perroquet'">🦜</span>
+                <span *ngSwitchCase="'Lapin'">🐰</span>
+                <span *ngSwitchCase="'Furet'">🦦</span> 
+                <span *ngSwitchCase="'Poisson Rouge'">🐠</span>
+                <span *ngSwitchDefault>❓</span> 
+            </span>
+        </h2>       
         <p><strong>Espèce :</strong> {{ animal.espece }}</p>
         <p><strong>Race :</strong> {{ animal.race }}</p>
         <p><strong>Âge :</strong> {{ animal.age }} ans</p>
