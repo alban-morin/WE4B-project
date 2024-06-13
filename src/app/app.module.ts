@@ -17,12 +17,7 @@ import { AnimalComponent } from './animal/animal.component';
 import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
-const appRoute: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'Home', component: HomeComponent},
-  {path: 'About', component: AboutComponent},
-  {path: '**', component: NotFoundComponent}
-]
+
 
 @NgModule({
   declarations: [
@@ -41,7 +36,6 @@ const appRoute: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(appRoute)
   ],
   providers: [
     AnimalService
