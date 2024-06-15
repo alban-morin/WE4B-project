@@ -1,2 +1,28 @@
 <app-navbar></app-navbar>
-<app-animal-container></app-animal-container>
+<div class="animal-container">
+    <div *ngFor="let animal of animals; let i = index" class="animal-card">
+      <img [src]="animal.photo" [alt]="'Photo de ' + animal.nom" class="animal-photo">
+      <div class="animal-info">
+        <h2>
+            {{ animal.nom }}
+            <span *ngIf="animal.espece === 'Chien'" style="display: inline-block;">🐶</span>
+            <span *ngIf="animal.espece === 'Chat'" style="display: inline-block;">🐱</span>
+            <span *ngIf="animal.espece === 'Perroquet'" style="display: inline-block;">🦜</span> 
+            <span *ngIf="animal.espece === 'Lapin'" style="display: inline-block;">🐰</span>
+            <span *ngIf="animal.espece === 'Furet'" style="display: inline-block;">🦦</span> 
+            <span *ngIf="animal.espece === 'Poisson Rouge'" style="display: inline-block;">🐠</span> 
+        </h2>        
+        <p><strong>Espèce :</strong> {{ animal.espece }}</p>
+        <p><strong>Race :</strong> {{ animal.race }}</p>
+        <p><strong>Âge :</strong> {{ animal.age }} ans</p>
+        <p><strong>Sexe :</strong> {{ animal.sexe }}</p>
+        <p class="description">{{ animal.description }}</p>
+
+        <!--<button (click)="showMoreInfo(animal)">Plus d'informations</button>
+        <button (click)="adoptAnimal(animal)">Adopter</button>
+        -->
+        <button class="more-info">Plus d'informations</button>
+        <button class="adopter" >Adopter</button>
+      </div>
+    </div>
+  </div>

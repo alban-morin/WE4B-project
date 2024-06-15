@@ -6,7 +6,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la header */
      /* Bords arrondis */
-   
+     font-family: 'Nunito Sans', sans-serif;
   }
   
   .site-logo img {
@@ -23,21 +23,26 @@
   .site-info h1 {
     color: #FFFFFF; /* Blanc */
     margin: 0;
-    font-size: 32px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
   }
   
   .site-info h2 {
     color: #FFFFFF; /* Blanc */
     margin: 0;
-    font-size: 24px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
+    font-size: 1.5rem;
+    font-weight: 300 ;
+    font-family: 'Nunito Sans', sans-serif;
   }
   
   .site-info p {
     color: #FFFFFF; /* Blanc */
     margin: 0;
-    font-size: 18px;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
   }
   
   .header-buttons {
@@ -50,7 +55,7 @@
     color: #4CAF50; /* Vert */
     padding: 10px 20px;
     text-decoration: none;
-    
+  
     transition: background-color 0.3s, color 0.3s;
   }
   
@@ -58,7 +63,8 @@
     background-color: #388E3C; /* Vert plus foncé */
     color: #FFFFFF; /* Blanc */
   }
-  
+
+
   /* Responsive Design */
   @media (max-width: 768px) {
     .header {
