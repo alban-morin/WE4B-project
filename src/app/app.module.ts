@@ -11,6 +11,10 @@ import { FooterComponent } from './footer/footer.component';
 import { FeaturesContainerComponent } from './features-container/features-container.component';
 import { CookieComponent } from './cookie/cookie.component';
 import { AnimalContainerComponent } from './animal-container/animal-container.component';
+import { AdoptionPlaceComponent } from './adoption-place/adoption-place.component';
+import { from } from 'rxjs';
+import { HttpClientModule } from '@angular/common/http';
+import { AnimalService } from './animal.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,13 +25,15 @@ import { AnimalContainerComponent } from './animal-container/animal-container.co
     FooterComponent,
     FeaturesContainerComponent,
     CookieComponent,
-    AnimalContainerComponent
+    AnimalContainerComponent,
+    AdoptionPlaceComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [AnimalService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

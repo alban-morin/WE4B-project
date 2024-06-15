@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { AdopterService } from '../Services/adopter.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { AdopterService } from '../Services/adopter.service';
 })
 export class AnimalContainerComponent implements OnInit {
   
-
+  @Input() animal:any;
   constructor(private adopterService: AdopterService) {
       
     

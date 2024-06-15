@@ -1,22 +1,76 @@
+.carousel-caption {
+    position: absolute;
+    top: -100%; /* Commencez en dehors du conteneur pour l'animation */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+    text-decoration: none;
+    z-index: 2;
+    
+    opacity: 0; /* Démarrez avec une opacité à 0 pour une transition d'opacité fluide */
+    animation: slideFromTop 0.5s ease-out forwards, fadeIn 0.5s ease-out forwards; /* Utilisez les animations définies */
+    transition: transform 0.3s ease-in-out; 
+    height: fit-content;
+}
+.carousel-caption:hover
+{
+transform: translate(-50%, +8%) scale(1.3); /* Grossissement de l'élément au passage de la souris */
+color: #65c355;
+border: solid 3px white;
+}
+
+
+@keyframes slideFromTop {
+    0% {
+        top: 30%;
+    }
+    100% {
+        top: 41%; /* Position finale au milieu de l'image */
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .carousel-img {
     height: 1000px; /* Ajustez cette valeur selon vos besoins */
     object-fit: cover; /* Cette propriété permet de couvrir toute la hauteur sans déformer l'image */
-  }
-  .carousel-caption {
-     /* Positionnement absolu pour placer le texte sur l'image */
-    width: 100%; /* Largeur de 100% pour occuper toute la largeur de l'image */
-    height: 100%; /* Hauteur de 100% pour occuper toute la hauteur de l'image */
-    top: 50%; /* Positionnement vertical au milieu de l'image */
-    left: 50%; /* Positionnement horizontal au milieu de l'image */
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.2); /* Ajout d'un fond semi-transparent pour améliorer la visibilité */
-    color: white; /* Couleur du texte */
-    padding: 10px; /* Ajout de marge intérieure pour un meilleur espacement */
+    width: 100%;
+    position: relative; /* Positionnement relatif pour utiliser un pseudo-élément */
 }
+
+.carousel-item {
+    position: relative; /* Positionnement relatif pour que le pseudo-élément couvre l'image */
+}
+
+.carousel-item::before {
+    content: ''; /* Nécessaire pour créer un pseudo-élément */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Fond semi-transparent */
+    z-index: 1; /* Place le fond en dessous du texte mais au-dessus de l'image */
+}
+
 .carousel-inner {
-    position: relative; /* Assure que la position absolue de .carousel-caption est relative à .carousel-inner */
+    position: relative;
+    z-index: 1; /* Assure que la position absolue de .carousel-caption est relative à .carousel-inner */
 }
 
 .carousel-control-prev, .carousel-control-next {
     width: 5%; /* Ajustez cette valeur selon vos besoins */
+    z-index: 3; /* Assurez-vous que les flèches sont au-dessus du pseudo-élément */
 }

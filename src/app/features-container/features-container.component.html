@@ -1,18 +1,16 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <h1 class="carousel-caption">{{animals[0].name}}</h1>
-            <img src="{{animals[0].image}}" class="d-block w-100 carousel-img" alt="...">
-            
+            <img src="{{animauxmenu[0].image}}" class="d-block w-100 carousel-img" alt="..." >
+            <a class="carousel-caption"  [routerLink]="['/adoptionplace', animauxmenu[0].especes]">{{animauxmenu[0].name}}</a>
         </div>
         <div class="carousel-item">
-            <h1 class="carousel-caption">{{animals[1].name}}</h1>
-            <img src="{{animals[1].image}}" class="d-block w-100 carousel-img" alt="...">
-
+            <img src="{{animauxmenu[1].image}}" class="d-block w-100 carousel-img" alt="...">
+            <a class="carousel-caption"[routerLink]="['/adoptionplace', animauxmenu[1].especes]" >{{animauxmenu[1].name}}</a>
         </div>
         <div class="carousel-item">
-            <h1 class="carousel-caption">{{animals[2].name}}</h1>
-            <img src="{{animals[2].image}}" class="d-block w-100 carousel-img" alt="...">
+            <img src="{{animauxmenu[2].image}}" class="d-block w-100 carousel-img" alt="...">
+            <a class="carousel-caption"[routerLink]="['/adoptionplace', animauxmenu[2].especes]">{{animauxmenu[2].name}}</a>
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

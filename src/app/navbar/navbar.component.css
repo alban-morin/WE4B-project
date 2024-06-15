@@ -28,6 +28,7 @@
     padding: 10px 15px;
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transition pour les effets */
     border-radius: 5px; /* Bord arrondi */
+    font-size: 1.2rem;
   }
   
   .site-menu a:hover {

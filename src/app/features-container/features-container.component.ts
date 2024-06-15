@@ -6,23 +6,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./features-container.component.css']
 })
 export class FeaturesContainerComponent {
-  animals = [
+  animauxmenu = [
     {
+      especes: 'Chat',
       name: 'chats',
       description: 'Grand classique des animaux de compagnie, autonomes et indépendants mais aussi joueur.',
       image: "https://ohbellachat.com/wp-content/uploads/2022/10/cat-pet-animals-6463284-1024x686.jpg.webp"
     },
     {
+      especes: 'Chien',
       name: 'Chiens',
       description: 'Le meilleur ami de l\'homme, fidèle et protecteur.',
       image: "https://www.goodbro.fr/wp-content/uploads/Husky-de-Sibe%CC%81rie.jpg"
     },
     {
+      especes: 'Furet',
       name: 'Furets',
       description: 'Petit animal de compagnie très joueur et curieux.',
       image: "https://www.club-furet.fr/wp-content/uploads/2021/05/mustelides.jpg"
     },
     {
+      
       name: 'Lapins',
       description: 'Animal de compagnie très doux et affectueux.',
       image: "https://www.zooplus.fr/magazine/wp-content/uploads/2021/10/AdobeStock_158340480-768x549-1.jpeg"
