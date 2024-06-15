@@ -1,3 +1,4 @@
+
 .navbar {
     display: flex;
     background-color: #426A5A; /* Marron */
@@ -6,13 +7,17 @@
     padding: 10px 30px;
     font-family: 'Roboto', sans-serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la navbar */
+    height: 150px;
   }
   
   .site-name h1 {
     color: #FFFFFF; /* Blanc */
-    font-size: 24px;
+    font-size:4rem;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte */
+    font-family: 'Nunito Sans', sans-serif;
+    left: 100px;
+    font-weight: 700;
+   
   }
   
   .site-menu {
