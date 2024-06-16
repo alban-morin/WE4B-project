@@ -49,6 +49,28 @@
         "sexe": "Inconnu",
         "description": "Sushi est un poisson rouge très vif et coloré. Il aime nager dans son aquarium et manger des flocons. Il cohabite avec d'autres poissons de son espèce.",
         "photo": "https://www.oobaooba.fr/img/post/24.jpg"
+      },
+
+      {
+        "nom": "loki",
+        "espece": "Furet",
+        "race": "Fufito",
+        "age": 4,
+        "sexe": "Mâle",
+        "description": "Loki est un furet joueur",
+        "photo": "https://www.lesitedesanimaux.com/wp-content/uploads/2020/08/furet-rongeur.jpg",
+        "id": 6
+      }
+    ],
+    "refuges": [
+      {
+        "refugeName": "fzffzz",
+        "address": "fzfzfz",
+        "phone": "1234567890",
+        "email": "photo@photo.fr",
+        "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+        "password": "cacaca",
+        "id": 1
       }
     ]
   }

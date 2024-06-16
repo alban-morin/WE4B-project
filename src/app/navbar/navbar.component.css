@@ -61,4 +61,55 @@
       text-align: center;
     }
   }
+
+  .active{
+    background-color: #4CAF50; /* Vert */
+    color: #FFFFFF; /* Blanc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+  }
   
+  .clickable-h1 {
+    text-decoration: none;
+    color: inherit;
+    display:flex;
+    align-items: center;
+  }
+  .clickable-h1 h1 {
+    margin: 0;
+  }
+
+  .logo {
+    margin-left: 20px;
+    width: 60px; /* Adjust the width as needed */
+    height: auto;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .user-info .refuge-name {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .user-info img.refuge-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .user-info button {
+    background-color: #EF6F6C;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .user-info button:hover {
+    background-color: #555;
+  }

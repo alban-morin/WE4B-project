@@ -16,6 +16,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { AnimalService } from './animal.service';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { AboutComponent } from './about/about.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { RefugeListComponent } from './refuge-list/refuge-list.component';
+import { AddAnimalComponent } from './add-animal/add-animal.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +33,12 @@ import { AboutComponent } from './about/about.component';
     CookieComponent,
     AdoptionPlaceComponent,
     NotFoundComponent,
-    AboutComponent
+    AboutComponent,
+    RegisterComponent,
+    LoginComponent,
+    RefugeListComponent,
+    AddAnimalComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,

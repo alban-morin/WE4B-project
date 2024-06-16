@@ -1,26 +1,6 @@
 {
   "animals": [
     {
-      "id": 1,
-      "nom": "Rex",
-      "espece": "Chien",
-      "race": "Berger Allemand",
-      "age": "5",
-      "sexe": "Mâle",
-      "description": "Rex est un chien très joueur et affectueux. Il adore les enfants et les autres animaux. Il est très obéissant et il est déjà éduqué. Il est pucé et vacciné.",
-      "photo": "https://images.ctfassets.net/denf86kkcx7r/53Sq2GH470TPjioLFw9cDl/ad96e3bef463804fb2b5379b8ae24de9/berger_allemand_fiche_race_santevet_assurance"
-    },
-    {
-      "id": 2,
-      "nom": "Mistigri",
-      "espece": "Chat",
-      "race": "Européen",
-      "age": "3",
-      "sexe": "Femelle",
-      "description": "Mistigri est une chatte très indépendante mais câline à ses heures. Elle aime jouer avec des plumes et se prélasser au soleil. Elle est stérilisée et à jour dans ses vaccins.",
-      "photo": "https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-    },
-    {
       "id": 3,
       "nom": "Caramel",
       "espece": "Lapin",
@@ -49,6 +29,38 @@
       "sexe": "Inconnu",
       "description": "Sushi est un poisson rouge très vif et coloré. Il aime nager dans son aquarium et manger des flocons. Il cohabite avec d'autres poissons de son espèce.",
       "photo": "https://www.oobaooba.fr/img/post/24.jpg"
+    },
+    {
+      "nom": "loki",
+      "espece": "Furet",
+      "race": "Fufito",
+      "age": 4,
+      "sexe": "Mâle",
+      "description": "Loki est un furet joueur",
+      "photo": "https://www.lesitedesanimaux.com/wp-content/uploads/2020/08/furet-rongeur.jpg",
+      "id": 6
+    },
+    {
+      "nom": "titi",
+      "espece": "Furet",
+      "race": "noir",
+      "age": 2,
+      "sexe": "Femelle",
+      "description": "titi est un fufu",
+      "photo": "https://s3.eu-west-3.amazonaws.com/vetofficine.com-bucket/img/fiches/6241.jpg",
+      "refugeName": "fzffzz",
+      "id": 7
+    }
+  ],
+  "refuges": [
+    {
+      "refugeName": "fzffzz",
+      "address": "fzfzfz",
+      "phone": "1234567890",
+      "email": "photo@photo.fr",
+      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "password": "cacaca",
+      "id": 1
     }
   ]
 }

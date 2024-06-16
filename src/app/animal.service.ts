@@ -22,5 +22,12 @@ export class AnimalService {
     return this.http.get<any[]>(`${this.baseUrl}?espece=${species}`);
   }
 
+  getAnimalsByRefuge(refugeName: string): Observable<any[]> {
+    return this.http.get<any[]>(`${this.baseUrl}?refugeName=${refugeName}`);
+  }
+
+  addAnimal(animal: any): Observable<any> {
+    return this.http.post<any>(this.baseUrl, animal);
+  }
 
 }

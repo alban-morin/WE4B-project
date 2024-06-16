@@ -1,6 +1,6 @@
-adopter.service -> enlever le type any
-créer interface pour les animaux ?
 créer une page dédiée pour afficher un animal
-créer form inscription/connexion
 enlever un max any sur les observables
+faire en-tête sur les pages d'animaux pour afficher si on est sur une espèce, un refuge, etc
+faire filtrage sur la page des animaux (à voir sinon nsm)
+
 

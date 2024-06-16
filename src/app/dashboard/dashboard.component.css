@@ -1,0 +1,23 @@
+.dashboard-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  .dashboard-container h1 {
+    color: #333333;
+  }
+  
+  .dashboard-container button {
+    padding: 10px 20px;
+    background-color: #7FB685;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #426A5A;
+  }
+  
