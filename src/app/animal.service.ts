@@ -1,4 +1,3 @@
-// animal.service.ts
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -8,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class AnimalService {
 
-  private baseUrl = 'http://localhost:3000/animals'; // URL du serveur json-server
+  private baseUrl = 'http://localhost:3000/animals';
 
   constructor(private http: HttpClient) { }
 
@@ -23,5 +22,5 @@ export class AnimalService {
     return this.http.get<any[]>(`${this.baseUrl}?espece=${species}`);
   }
 
-  // Ajoutez d'autres méthodes pour créer, mettre à jour et supprimer des animaux si nécessaire
+
 }
