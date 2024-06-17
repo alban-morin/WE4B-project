@@ -1,16 +1,6 @@
 {
   "animals": [
     {
-      "id": 3,
-      "nom": "Caramel",
-      "espece": "Lapin",
-      "race": "Nain Bélier",
-      "age": "1",
-      "sexe": "Mâle",
-      "description": "Caramel est un lapin très doux et sociable. Il adore les carottes et les câlins. Il est propre et vit en liberté dans la maison.",
-      "photo": "https://images.ctfassets.net/b85ozb2q358o/3lOtqK3SL3zJD6IsOwtFvr/2e60230858a6ef7b7696902d4f744d65/le-caractere-du-lapin-nain-belier-1.jpg"
-    },
-    {
       "id": 4,
       "nom": "Charlie",
       "espece": "Perroquet",
@@ -19,16 +9,6 @@
       "sexe": "Mâle",
       "description": "Charlie est un perroquet très intelligent et bavard. Il connaît plusieurs mots et phrases. Il aime jouer avec des jouets interactifs et se faire gratter la tête.",
       "photo": "https://lemagdesanimaux.ouest-france.fr/images/dossiers/2019-08/perroquet-gris-gabon-1-100702.jpg"
-    },
-    {
-      "id": 5,
-      "nom": "Sushi",
-      "espece": "Poisson Rouge",
-      "race": "",
-      "age": "2",
-      "sexe": "Inconnu",
-      "description": "Sushi est un poisson rouge très vif et coloré. Il aime nager dans son aquarium et manger des flocons. Il cohabite avec d'autres poissons de son espèce.",
-      "photo": "https://www.oobaooba.fr/img/post/24.jpg"
     },
     {
       "nom": "loki",
@@ -43,10 +23,10 @@
     {
       "nom": "titi",
       "espece": "Furet",
-      "race": "noir",
-      "age": 2,
+      "race": "Noir",
+      "age": 3,
       "sexe": "Femelle",
-      "description": "titi est un fufu",
+      "description": "furet marrant",
       "photo": "https://s3.eu-west-3.amazonaws.com/vetofficine.com-bucket/img/fiches/6241.jpg",
       "refugeName": "fzffzz",
       "id": 7

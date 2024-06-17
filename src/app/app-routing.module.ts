@@ -10,6 +10,7 @@ import { RefugeListComponent } from './refuge-list/refuge-list.component';
 import { AddAnimalComponent } from './add-animal/add-animal.component';
 import { AuthGuard } from './auth.guard';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AnimalDetailsComponent } from './animal-details/animal-details.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path : 'About', component : AboutComponent},   
   {path : 'adoptionplace/espece/:espece', component : AdoptionPlaceComponent},
   {path : 'adoptionplace/refuge/:refugeName', component : AdoptionPlaceComponent},
+  {path : 'adoptionplace/:id',component: AnimalDetailsComponent}, 
   {path : 'adoptionplace', component : AdoptionPlaceComponent},
   {path : 'refuges', component : RefugeListComponent},
   {path : 'register', component : RegisterComponent},

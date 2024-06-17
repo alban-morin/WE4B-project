@@ -40,8 +40,4 @@ export class AdoptionPlaceComponent implements OnInit {
       });
     }
   }
-
-  OnAdopter(index:number){
-    this.adopterService.OnAdopterClicked(this.animals[index]);
-  }
 }

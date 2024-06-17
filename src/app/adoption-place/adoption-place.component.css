@@ -1,63 +1,27 @@
 .animal-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .animal-card {
-    width: 300px;
-    margin: 15px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .animal-photo {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .animal-info {
-    padding: 15px;
-  }
-  
-  .animal-info h2 {
-    margin-bottom: 10px;
-  }
-  
-  .description {
-    margin-top: 10px;
-  }
-
-  .animal-card button {
-    background-color: #426A5A; /* Vert */
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 5px;
-    cursor: pointer;
-    border-radius: 20px; /* Coins plus arrondis */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Ombre plus prononcée */
-    transition: all 0.3s ease;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+  justify-items: center;
 }
 
-.animal-card button:hover {
-    transform: translateY(-2px); /* Déplacement léger vers le haut au survol */
-    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+@media (max-width: 1200px) {
+  .animal-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.animal-card button.more-info {
-    background-color: #DDAE7E; /* Orange */
+@media (max-width: 900px) {
+  .animal-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-.animal-card button:first-child {
-    background-color: #FFC107; /* Jaune */
+
+@media (max-width: 600px) {
+  .animal-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .current-title {

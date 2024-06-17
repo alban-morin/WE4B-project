@@ -15,14 +15,14 @@ export class AdopterService {
     return this.http.delete(`${this.baseUrl}/${id}`);
   }
 
-  OnAdopterClicked(animal: any) {
-    this.deleteAnimal(animal.id).subscribe({
+  OnAdopterClicked(id:number,nom:string) {
+    this.deleteAnimal(id).subscribe({
       next: (response) => {
-        alert("Vous avez adopté " + animal.nom + " !");
+        alert("Vous avez adopté " + nom + " !");
       },
       error: (err) => {
         console.error('Erreur lors de la suppression de l\'animal', err);
-        alert("Une erreur est survenue lors de l'adoption de " + animal.nom + " !");
+        alert("Une erreur est survenue lors de l'adoption de " + nom + " !");
       }
     });
   }

@@ -21,6 +21,8 @@ import { LoginComponent } from './login/login.component';
 import { RefugeListComponent } from './refuge-list/refuge-list.component';
 import { AddAnimalComponent } from './add-animal/add-animal.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AnimalDetailsComponent } from './animal-details/animal-details.component';
+import { AnimalCardComponent } from './animal-card/animal-card.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     RefugeListComponent,
     AddAnimalComponent,
     DashboardComponent,
+    AnimalDetailsComponent,
+    AnimalCardComponent,
   ],
   imports: [
     BrowserModule,
