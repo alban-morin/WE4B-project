@@ -6,7 +6,7 @@
       "race": "Noir",
       "age": 3,
       "sexe": "Femelle",
-      "description": "Furet marrant",
+      "description": "Furet marrant et joueur blablablablabl ablablablablab lablablablabla blablablabla",
       "photo": "https://s3.eu-west-3.amazonaws.com/vetofficine.com-bucket/img/fiches/6241.jpg",
       "refugeName": "Le Havre de Paix",
       "id": 1
@@ -28,7 +28,7 @@
       "race": "Gris du Gabon",
       "age": 8,
       "sexe": "Mâle",
-      "description": "Charlie est un perroquet très intelligent et bavard. Il connaît plusieurs mots et phrases. Il aime jouer avec des jouets interactifs et se faire gratter la tête.",
+      "description": "Charlie est un perroquet très intelligent et bavard. Il connaît plusieurs mots et phrases.",
       "photo": "https://lemagdesanimaux.ouest-france.fr/images/dossiers/2019-08/perroquet-gris-gabon-1-100702.jpg",
       "refugeName": "L'Arche de Noé",
       "id": 3

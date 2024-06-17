@@ -8,6 +8,7 @@ XXXXXXbouton "plus d'informations" sur un animal ?
 refaire le style sur animal-details et rajouter infos refuge
 Arranger footer
 ajouter supprimer animal dans Tableau de bord
-menu déroulant espece dans le form ajouter
+XXXXXXmenu déroulant espece dans le form ajouter
+Metre tous les services dans un dossier
 
 

@@ -9,7 +9,15 @@
   
       <div class="form-group">
         <label for="espece">Espèce</label>
-        <input type="text" id="espece" formControlName="espece" required>
+        <select id="espece" formControlName="espece" required>
+          <option value="">Sélectionnez une espèce</option>
+          <option value="Chien">Chien</option>
+          <option value="Chat">Chat</option>
+          <option value="Lapin">Lapin</option>
+          <option value="Furet">Furet</option>
+          <option value="Poisson Rouge">Poisson Rouge</option>
+          <option value="Perroquet">Perroquet</option>
+        </select>
       </div>
   
       <div class="form-group">
