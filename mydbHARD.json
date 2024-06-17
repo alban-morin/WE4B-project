@@ -346,8 +346,6 @@
       "espece": "Perroquet",
       "race": "Eclectus",
       "age": 5,
-
-
       "sexe": "Femelle",
       "description": "Kiki est un perroquet coloré et bavard, elle aime répéter des mots et jouer avec des objets brillants.",
       "photo": "https://cdn.pixabay.com/photo/2015/03/26/09/54/dog-690568_960_720.jpg",
@@ -551,6 +549,17 @@
       "photo": "https://cdn.pixabay.com/photo/2019/06/29/13/48/french-bulldog-4301402_960_720.jpg",
       "refugeName": "Refuge de la Vallée",
       "id": 50
+    },
+    {
+      "nom": "Loki",
+      "espece": "Furet",
+      "race": "Fufito",
+      "age": 3,
+      "sexe": "Mâle",
+      "description": "vrai furet",
+      "photo": "https://www.lesitedesanimaux.com/wp-content/uploads/2020/08/furet-rongeur.jpg",
+      "refugeName": "Le Havre de Paix",
+      "id": 51
     }
   ],
   "refuges": [
@@ -559,7 +568,7 @@
       "address": "12 Rue des Alouettes, 75019 Paris",
       "phone": "0145236789",
       "email": "contact@havredepaix.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://lesvoyagesduparisienheureux.fr/wp-content/uploads/2016/12/christina-refuge-animaux-santorin.jpg",
       "password": "password",
       "id": 1
     },
@@ -568,7 +577,7 @@
       "address": "20 Avenue des Cèdres, 69003 Lyon",
       "phone": "0478562341",
       "email": "info@refugemontagnes.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://images.pexels.com/photos/12195429/pexels-photo-12195429.jpeg",
       "password": "password",
       "id": 2
     },
@@ -577,7 +586,7 @@
       "address": "34 Boulevard Saint-Germain, 75005 Paris",
       "phone": "0156789234",
       "email": "contact@archedenoé.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://images.pexels.com/photos/11551694/pexels-photo-11551694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "password": "password",
       "id": 3
     },
@@ -586,7 +595,7 @@
       "address": "7 Rue des Lilas, 13008 Marseille",
       "phone": "0491356789",
       "email": "contact@refugeanimaux.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://images.pexels.com/photos/16652386/pexels-photo-16652386/free-photo-of-group-of-people-with-dogs-for-adoption-standing-in-a-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "password": "password",
       "id": 4
     },
@@ -595,7 +604,7 @@
       "address": "10 Chemin des Vignes, 33000 Bordeaux",
       "phone": "0556987456",
       "email": "info@refugevallee.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://images.pexels.com/photos/11683916/pexels-photo-11683916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "password": "password",
       "id": 5
     },
@@ -604,7 +613,7 @@
       "address": "8 Place du Marché, 67000 Strasbourg",
       "phone": "0388246571",
       "email": "contact@petitrefuge.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://images.pexels.com/photos/16465626/pexels-photo-16465626/free-photo-of-worker-feeding-cats-in-shelter.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "password": "password",
       "id": 6
     },
@@ -613,7 +622,7 @@
       "address": "5 Quai des Chartrons, 17000 La Rochelle",
       "phone": "0546248569",
       "email": "info@refugemer.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://images.pexels.com/photos/16465614/pexels-photo-16465614/free-photo-of-dogs-walking-around-brick-square.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "password": "password",
       "id": 7
     },
@@ -622,7 +631,7 @@
       "address": "3 Rue de la Liberté, 21000 Dijon",
       "phone": "0380724567",
       "email": "contact@asiledesanimaux.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://images.ctfassets.net/sfnkq8lmu5d7/4YkK1xILTFo5YCra2BAQqB/ffd2680dc8049ec94b2eaeb5f2ceb4ba/The-Wildest_Editorial_Animal-Shelter_Hero_AdobeStock_248142538.jpg",
       "password": "password",
       "id": 8
     },
@@ -631,7 +640,7 @@
       "address": "2 Allée des Pins, 31000 Toulouse",
       "phone": "0561248532",
       "email": "info@refugebois.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://web.petbridge.org/wp-content/uploads/2022/06/Animal-Shelter-Overcrowding.jpg",
       "password": "password",
       "id": 9
     },
@@ -640,7 +649,7 @@
       "address": "1 Rue des Roses, 44000 Nantes",
       "phone": "0240253648",
       "email": "contact@maisondesanimaux.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://i0.wp.com/smdp.com/wp-content/uploads/2023/05/%E2%80%98Kitten-season-begins-at-the-Santa-Monica-Animal-Shelter-1.jpg?w=2048&quality=89&ssl=1",
       "password": "password",
       "id": 10
     },
@@ -649,7 +658,7 @@
       "address": "9 Avenue du Général Leclerc, 75014 Paris",
       "phone": "0145237896",
       "email": "info@refugeplaine.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://image.volunteerworld.com/4eed52fd4d48d596fc6e1586dfa8c1c9053e8b0d/email-blocks-6.png?auto=format&fit=crop&max-h=560&max-w=560",
       "password": "password",
       "id": 11
     },
@@ -658,7 +667,7 @@
       "address": "6 Rue des Jardins, 34000 Montpellier",
       "phone": "0467654321",
       "email": "contact@refugeensoleille.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://www.treehugger.com/thmb/kyUUsONHr3phAGkPpY0gZbrEGKA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-565299235-d69ed23ab1b74b92a989e0bc609e7543.jpg",
       "password": "password",
       "id": 12
     },
@@ -667,7 +676,7 @@
       "address": "11 Route de la Forêt, 35000 Rennes",
       "phone": "0299256874",
       "email": "info@refugeforet.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://www.yadkincountync.gov/ImageRepository/Document?documentId=6117",
       "password": "password",
       "id": 13
     },
@@ -676,7 +685,7 @@
       "address": "4 Rue de la Gare, 37000 Tours",
       "phone": "0247304587",
       "email": "contact@etoileanimale.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://www.ifsa-nature.fr/wp-content/uploads/sites/2/2022/03/travailler-dans-un-refuge-pour-animaux-846x508.jpg",
       "password": "password",
       "id": 14
     },
@@ -685,7 +694,7 @@
       "address": "15 Rue des Fleurs, 75018 Paris",
       "phone": "0145678923",
       "email": "contact@refugebonheur.fr",
-      "photo": "https://static.actu.fr/uploads/2023/01/10023-230120155531833-28136436384011285360-960x640.jpg",
+      "photo": "https://img.lamontagne.fr/Bdc3r2GMaknQURStDMo5IazqaGwJ0oEXv6LVX5oiS0s/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDYvNjQvMzkvMjAwMDAwNjY0Mzk5MA.jpg",
       "password": "password",
       "id": 15
     }
