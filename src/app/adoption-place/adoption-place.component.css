@@ -59,3 +59,23 @@
 .animal-card button:first-child {
     background-color: #FFC107; /* Jaune */
 }
+
+.current-title {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.current-title h1 {
+  font-size: 2em;
+  color: #333;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.current-title h1 span {
+  color: #007BFF;
+}
