@@ -5,7 +5,7 @@
       <div class="refuge-details">
         <h3>{{ refuge.refugeName }}</h3>
         <p><strong>Adresse : </strong> {{ refuge.address }}</p>
-        <p><strong>Téléphone : </strong> {{ refuge.phone }}</p>
+        <p><strong>Téléphone : </strong> <a [href]="'tel:'">{{ refuge.phone }}</a></p>
         <p><strong>Mail : </strong> <a [href]="'mailto:' + refuge.email">{{ refuge.email }}</a></p>
         <p><strong><a [routerLink]="['/adoptionplace/refuge', refuge.refugeName]">Liste des animaux</a></strong></p>
       </div>
