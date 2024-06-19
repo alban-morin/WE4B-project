@@ -12,17 +12,6 @@
       "id": 1
     },
     {
-      "nom": "Bella",
-      "espece": "Chien",
-      "race": "Labrador Retriever",
-      "age": 4,
-      "sexe": "Femelle",
-      "description": "Bella est une chienne affectueuse et énergique. Elle adore courir et jouer à la balle.",
-      "photo": "https://cdn.pixabay.com/photo/2015/03/26/09/54/dog-690568_960_720.jpg",
-      "refugeName": "Refuge des Montagnes",
-      "id": 2
-    },
-    {
       "nom": "Charlie",
       "espece": "Perroquet",
       "race": "Gris du Gabon",
