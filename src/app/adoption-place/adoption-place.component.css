@@ -1,9 +1,19 @@
+.page-container {
+  display: flex;
+  align-items: flex-start; /* Alignement au début pour que les éléments commencent au même niveau vertical */
+}
+
 .animal-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   padding: 20px;
+
   justify-items: center;
+  
+  top: 0;
+  margin-top: 0;
+  flex-grow: 1;
 }
 
 @media (max-width: 1200px) {
@@ -21,6 +31,7 @@
 @media (max-width: 600px) {
   .animal-container {
     grid-template-columns: 1fr;
+    margin-left: 0; /* Ajuster le margin-left pour les petits écrans */
   }
 }
 
@@ -42,4 +53,54 @@
 
 .current-title h1 span {
   color: #007BFF;
+}
+
+.filter-sidebar {
+  width: 25em;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+  position: sticky; /* Updated to sticky */
+  top: 0px; /* Provide a little spacing from the top */
+  max-height: calc(100vh - 40px); /* Ensure it doesn't overlap the footer */
+  overflow-y: auto;
+  display: inline-block;
+}
+
+.filter-sidebar h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.filter-sidebar form {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-sidebar label {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.filter-sidebar select,
+.filter-sidebar input {
+  margin-bottom: 1em;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-sidebar button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-sidebar button:hover {
+  background-color: #0056b3;
 }

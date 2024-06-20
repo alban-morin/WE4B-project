@@ -4,6 +4,7 @@ footer {
   height: auto;
   font-family: 'Roboto', sans-serif;
   padding-top: 40px;
+  z-index: 25;
 }
 
 .footer-content {

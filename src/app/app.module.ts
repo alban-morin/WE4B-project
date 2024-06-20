@@ -24,6 +24,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AnimalDetailsComponent } from './animal-details/animal-details.component';
 import { AnimalCardComponent } from './animal-card/animal-card.component';
 import { TimeLineComponent } from './time-line/time-line.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { TimeLineComponent } from './time-line/time-line.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [AnimalService],

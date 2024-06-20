@@ -78,17 +78,6 @@
       "id": 8
     },
     {
-      "nom": "Milo",
-      "espece": "Chat",
-      "race": "Persan",
-      "age": 4,
-      "sexe": "Mâle",
-      "description": "Milo est un chat doux et calme, il aime se prélasser et recevoir des caresses.",
-      "photo": "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_960_720.jpg",
-      "refugeName": "Refuge des Bois",
-      "id": 9
-    },
-    {
       "nom": "Ruby",
       "espece": "Chien",
       "race": "Beagle",
