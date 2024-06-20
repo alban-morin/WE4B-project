@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: auto; /* ajustez la hauteur en fonction de vos besoins */
-    background-color:#f5f5f7; /* couleur de fond de la section "career" */
+    background-color:#f7f7fa; /* couleur de fond de la section "career" */
 
     color: #0d0d0d;
     margin:  auto;
@@ -97,11 +97,13 @@
     padding-right: 50px;
     padding-top: 20px;
     overflow: hidden;
-
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: white;
     
   }
-  
+.content1:hover{
+    transform: translateY(-3px);
+}
   .content2{
     position: relative;
     width: 40em;
@@ -115,10 +117,13 @@
     padding-right: 50px;
     padding-top: 20px;
     background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
   
   }
-  
+.content2:hover{
+    transform: translateY(-3px);
+}
   
   .show-me:nth-child(n){
     transform: none;
