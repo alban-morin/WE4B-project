@@ -18,4 +18,8 @@ export class RefugeService {
     return this.http.get<any[]>(`${this.baseUrl}?refugeName=${mail}`);
   }
 
+  getRefugeByName(name: string): Observable<any> {
+    return this.http.get<any[]>(`${this.baseUrl}?refugeName=${name}`);
+  }
+
 }

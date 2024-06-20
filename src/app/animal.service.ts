@@ -30,4 +30,5 @@ export class AnimalService {
     return this.http.post<any>(this.baseUrl, animal);
   }
 
+
 }
