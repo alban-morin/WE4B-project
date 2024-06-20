@@ -22,6 +22,7 @@
     overflow: hidden;
     height: auto;
   }
+
   .line {
     position: absolute;
     z-index: 2;
@@ -51,6 +52,15 @@
   
   .line::after {
     bottom: 0;
+  }
+
+  @media (max-width: 1650px) {
+    .line {
+     z-index: -15;/* Masquer la ligne sur les petits écrans */
+    }
+    .bead{
+      display: none;
+    }
   }
   .section{
     display: flex;
