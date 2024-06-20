@@ -20,6 +20,7 @@
         <p><strong>Refuge : </strong> <a [routerLink]="['/adoptionplace/refuge', animal.refugeName]">{{animal.refugeName}}</a></p>
         <p class="description">{{ animal.description }}</p>
         <button class="more-info" *ngIf="showDetailsButton" class="more-info" [routerLink]="['/adoptionplace', animal.id]">Plus d'informations</button>
-        <button class="adopter" (click)="OnAdopter(animal.id,animal.nom)">Adopter</button>
+        <button *ngIf="showAdopterButton" class="adopter" (click)="OnAdopter(animal.id,animal.nom,'adopté')">Adopter</button>
+        <button *ngIf="isDashboard" class="delete" (click)="OnAdopter(animal.id,animal.nom,'supprimé')">Supprimer</button>
     </div>
 </div>

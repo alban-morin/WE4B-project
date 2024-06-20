@@ -1,7 +1,7 @@
 
 .navbar {
     display: flex;
-    background-color: #426A5A; /* Marron */
+    background-color: #426A5A;
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
@@ -11,7 +11,7 @@
   }
   
   .site-name h1 {
-    color: #FFFFFF; /* Blanc */
+    color: #FFFFFF;
     font-size:4rem;
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -28,22 +28,22 @@
   
   .site-menu a {
     text-decoration: none;
-    color: #FFFFFF; /* Blanc */
+    color: #FFFFFF; 
     margin: 0 15px;
     padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transition pour les effets */
-    border-radius: 5px; /* Bord arrondi */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    border-radius: 5px; 
     font-size: 1.6rem;
     font-family: 'Nunito Sans', sans-serif;
   }
   
   .site-menu a:hover {
-    background-color: #4CAF50; /* Vert */
-    color: #FFFFFF; /* Blanc */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+    background-color: #4CAF50; 
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .navbar {
       flex-direction: column;
@@ -63,9 +63,9 @@
   }
 
   .active{
-    background-color: #4CAF50; /* Vert */
-    color: #FFFFFF; /* Blanc */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
   
   .clickable-h1 {
@@ -80,7 +80,7 @@
 
   .logo {
     margin-left: 20px;
-    width: 60px; /* Adjust the width as needed */
+    width: 60px;
     height: auto;
   }
 

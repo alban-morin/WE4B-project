@@ -15,10 +15,10 @@ export class AdopterService {
     return this.http.delete(`${this.baseUrl}/${id}`);
   }
 
-  OnAdopterClicked(id:number,nom:string) {
+  OnAdopterClicked(id:number,nom:string,verbe:string) {
     this.deleteAnimal(id).subscribe({
       next: (response) => {
-        alert("Vous avez adopté " + nom + " !");
+        alert("Vous avez "+ verbe + nom + " !");
       },
       error: (err) => {
         console.error('Erreur lors de la suppression de l\'animal', err);

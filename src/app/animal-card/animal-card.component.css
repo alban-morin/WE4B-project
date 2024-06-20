@@ -87,3 +87,11 @@
   background-color: #7FB685; /* Vert plus foncé au survol */
 }
 
+.animal-info button.delete {
+  background-color: #EF6F6C;
+  color:white;
+}
+
+.animal-info button.delete:hover {
+  background-color: #D04542;
+}
