@@ -23,6 +23,7 @@ import { AddAnimalComponent } from './add-animal/add-animal.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AnimalDetailsComponent } from './animal-details/animal-details.component';
 import { AnimalCardComponent } from './animal-card/animal-card.component';
+import { TimeLineComponent } from './time-line/time-line.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { AnimalCardComponent } from './animal-card/animal-card.component';
     DashboardComponent,
     AnimalDetailsComponent,
     AnimalCardComponent,
+    TimeLineComponent,
   ],
   imports: [
     BrowserModule,

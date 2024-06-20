@@ -63,6 +63,32 @@ footer {
   color: #4CAF50; /* Vert nature */
 }
 
+.contact-form .contact-input {
+  width: 100%;
+  background: #1f1f1f;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  color: #d3d3d3;
+}
+
+.contact-form .contact-input:focus {
+  background: #333333;
+}
+
+.contact-form .btn {
+  background: #4CAF50; /* Vert nature */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.contact-form .btn:hover {
+  background: #388E3C; /* Vert plus foncé */
+}
+
 .footer-bottom {
   text-align: center;
   padding: 10px;
@@ -70,3 +96,4 @@ footer {
   color: #686868;
   font-size: 0.9em;
 }
+  
