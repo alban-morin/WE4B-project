@@ -51,7 +51,7 @@ body {
 }
 
 .form-group {
-  margin-bottom: 25px; /* Augmente l'espacement entre les groupes de formulaires */
+  margin-bottom: 25px;
   position: relative;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .submit-btn {
   width: 100%;
-  padding: 15px; /* Augmente le padding du bouton */
+  padding: 15px;
   background-color: #7FB685;
   border: none;
   border-radius: 8px;
@@ -88,8 +88,8 @@ body {
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 10px; /* Augmente l'espacement au-dessus du bouton */
-  margin-bottom: 50px; /* Ajoute un espacement en dessous du bouton */
+  margin-top: 10px;
+  margin-bottom: 50px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 

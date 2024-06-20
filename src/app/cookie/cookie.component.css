@@ -3,11 +3,11 @@
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: #7FB685; /* Vert */
-    color: #FFFFFF; /* Blanc */
+    background-color: #7FB685; 
+    color: #FFFFFF; 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,8 +21,8 @@
   }
   
   .cookie-banner button {
-    background-color: #FFFFFF; /* Blanc */
-    color: #4CAF50; /* Vert */
+    background-color: #FFFFFF; 
+    color: #4CAF50; 
     border: none;
     padding: 10px 20px;
     margin-left: 10px;
@@ -32,17 +32,17 @@
   }
   
   .cookie-banner button:hover {
-    background-color: #426A5A; /* Vert plus foncé */
-    color: #FFFFFF; /* Blanc */
+    background-color: #426A5A; 
+    color: #FFFFFF; 
   }
   
   .cookie-banner .btn-decline {
-    background-color: #EF6F6C; /* Rouge */
-    color: #FFFFFF; /* Blanc */
+    background-color: #EF6F6C; 
+    color: #FFFFFF; 
   }
   
   .cookie-banner .btn-decline:hover {
-    background-color: #CC0000; /* Rouge plus foncé */
-    color: #FFFFFF; /* Blanc */
+    background-color: #CC0000; 
+    color: #FFFFFF; 
   }
   
