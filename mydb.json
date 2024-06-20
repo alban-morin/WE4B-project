@@ -100,17 +100,6 @@
       "id": 10
     },
     {
-      "nom": "Blue",
-      "espece": "Poisson Rouge",
-      "race": "Queue-de-voile",
-      "age": 2,
-      "sexe": "Mâle",
-      "description": "Blue est un poisson rouge élégant, il aime nager avec grâce dans son aquarium.",
-      "photo": "https://cdn.pixabay.com/photo/2016/12/13/21/20/animal-1903580_960_720.jpg",
-      "refugeName": "Refuge de la Plaine",
-      "id": 11
-    },
-    {
       "nom": "Oliver",
       "espece": "Chat",
       "race": "Maine Coon",

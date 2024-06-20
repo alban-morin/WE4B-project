@@ -17,7 +17,7 @@ export class FeaturesContainerComponent {
       especes: 'Chien',
       name: 'Chiens',
       description: 'Le meilleur ami de l\'homme, fidèle et protecteur.',
-      image: "https://www.goodbro.fr/wp-content/uploads/Husky-de-Sibe%CC%81rie.jpg"
+      image: "https://img.20mn.fr/2c2xoZqdQhu84Dmhb8ci9Sk/1444x920_le-berger-australien-est-le-chien-prefere-des-francais"
     },
     {
       especes: 'Furet',
