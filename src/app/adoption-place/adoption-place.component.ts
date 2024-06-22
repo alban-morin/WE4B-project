@@ -31,8 +31,12 @@ export class AdoptionPlaceComponent implements OnInit {
     // Récupérez les paramètres de l'URL et appliquez-les aux filtres par défaut
     this.route.paramMap.subscribe(params => {
       const species = params.get('espece');
+      const refugeName = params.get('refugeName');
       if (species) {
         this.filters.species = species;
+      }
+      if (refugeName) {
+        this.filters.refugeName = refugeName;
       }
       this.loadAnimals();
     });
