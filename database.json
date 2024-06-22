@@ -1,28 +1,6 @@
 {
   "animals": [
     {
-      "nom": "Titi",
-      "espece": "Furet",
-      "race": "Noir",
-      "age": 3,
-      "sexe": "Femelle",
-      "description": "Furet marrant et joueur blablablablabl ablablablablab lablablablabla blablablabla",
-      "photo": "https://s3.eu-west-3.amazonaws.com/vetofficine.com-bucket/img/fiches/6241.jpg",
-      "refugeName": "Le Havre de Paix",
-      "id": 1
-    },
-    {
-      "nom": "Bella",
-      "espece": "Chien",
-      "race": "Labrador Retriever",
-      "age": 4,
-      "sexe": "Femelle",
-      "description": "Bella est une chienne affectueuse et énergique. Elle adore courir et jouer à la balle.",
-      "photo": "https://cdn.pixabay.com/photo/2015/03/26/09/54/dog-690568_960_720.jpg",
-      "refugeName": "Refuge des Montagnes",
-      "id": 2
-    },
-    {
       "nom": "Charlie",
       "espece": "Perroquet",
       "race": "Gris du Gabon",
@@ -40,7 +18,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Luna est une chatte calme et affectueuse, aimant les caresses et les siestes au soleil.",
-      "photo": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_960_720.jpg",
+      "photo": "https://www.vetocanis.com/cdn/shop/articles/137.png?v=1669029840",
       "refugeName": "Le Refuge des Animaux",
       "id": 4
     },
@@ -51,7 +29,7 @@
       "age": 1,
       "sexe": "Mâle",
       "description": "Roger est un lapin curieux et joueur, il adore grignoter des carottes et explorer son environnement.",
-      "photo": "https://cdn.pixabay.com/photo/2017/11/07/13/39/rabbit-2925126_960_720.jpg",
+      "photo": "https://lemagdesanimaux.ouest-france.fr/images/dossiers/2020-11/lapin-extra-nain-065653.jpg",
       "refugeName": "Refuge de la Vallée",
       "id": 5
     },
@@ -62,7 +40,7 @@
       "age": 1,
       "sexe": "Mâle",
       "description": "Nemo est un poisson rouge vif et curieux, il aime nager autour des décorations dans son aquarium.",
-      "photo": "https://cdn.pixabay.com/photo/2017/01/31/20/27/goldfish-2022927_960_720.jpg",
+      "photo": "https://media.ouest-france.fr/v1/pictures/59867aac29ff3716a24a46cab8aaecc2-22351333.jpg?width=1260&client_id=eds&sign=b30a4139973e8cc5577571fa0ff48951b6f12a885ace1f2a5b81e8004b3e1433",
       "refugeName": "Le Petit Refuge",
       "id": 6
     },
@@ -73,7 +51,7 @@
       "age": 5,
       "sexe": "Mâle",
       "description": "Max est un chien fidèle et amical, il aime les longues promenades et jouer à la balle.",
-      "photo": "https://cdn.pixabay.com/photo/2016/02/19/11/19/golden-retriever-1202726_960_720.jpg",
+      "photo": "https://www.everland-petfood.com/wp-content/uploads/Golden_Retriever_standing_Tucker.jpg",
       "refugeName": "Refuge de la Mer",
       "id": 7
     },
@@ -84,20 +62,9 @@
       "age": 3,
       "sexe": "Femelle",
       "description": "Coco est un perroquet coloré et bavard, elle aime répéter des mots et s'amuser avec des jouets.",
-      "photo": "https://cdn.pixabay.com/photo/2017/09/25/13/12/parrot-2784954_960_720.jpg",
+      "photo": "https://www.parrotworld.fr/fr/m_enhance/117?filename=Perroquet_Ara_Macao_157318289_gi_A&ext=jpg&style_name=animal_portrait&h=560&w=420&rule=420w",
       "refugeName": "L'Asile des Animaux",
       "id": 8
-    },
-    {
-      "nom": "Milo",
-      "espece": "Chat",
-      "race": "Persan",
-      "age": 4,
-      "sexe": "Mâle",
-      "description": "Milo est un chat doux et calme, il aime se prélasser et recevoir des caresses.",
-      "photo": "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_960_720.jpg",
-      "refugeName": "Refuge des Bois",
-      "id": 9
     },
     {
       "nom": "Ruby",
@@ -106,29 +73,18 @@
       "age": 3,
       "sexe": "Femelle",
       "description": "Ruby est une chienne curieuse et énergique, toujours en quête de nouvelles aventures.",
-      "photo": "https://cdn.pixabay.com/photo/2018/01/15/07/51/adorable-3083377_960_720.jpg",
+      "photo": "https://images.ctfassets.net/denf86kkcx7r/6zcaK24BXlretJmpcHIHUK/de91a500986c690e634f753869c58db0/Beagle?h=320&w=520&fit=thumb",
       "refugeName": "La Maison des Animaux",
       "id": 10
     },
     {
-      "nom": "Blue",
-      "espece": "Poisson Rouge",
-      "race": "Queue-de-voile",
-      "age": 2,
-      "sexe": "Mâle",
-      "description": "Blue est un poisson rouge élégant, il aime nager avec grâce dans son aquarium.",
-      "photo": "https://cdn.pixabay.com/photo/2016/12/13/21/20/animal-1903580_960_720.jpg",
-      "refugeName": "Refuge de la Plaine",
-      "id": 11
-    },
-    {
-      "nom": "Oliver",
+      "nom": "Jalikova",
       "espece": "Chat",
-      "race": "Maine Coon",
-      "age": 5,
+      "race": "Oriental Shorthair",
+      "age": 12,
       "sexe": "Mâle",
-      "description": "Oliver est un chat majestueux et sociable, il adore jouer et grimper aux arbres.",
-      "photo": "https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_960_720.jpg",
+      "description": "Jalikova est un chat majestueux et sociable, il adore jouer et grimper aux arbres.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJK5ZBAoPqlB75ifzGRAhyNSq7NmdpYnsVEA&s",
       "refugeName": "Le Refuge Ensoleillé",
       "id": 12
     },
@@ -139,7 +95,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Mimi est un furet espiègle et joueur, elle adore courir et explorer son environnement.",
-      "photo": "https://cdn.pixabay.com/photo/2019/08/29/16/50/ferret-4438581_960_720.jpg",
+      "photo": "https://www.autourdesanimaux.com/wp-content/uploads/furet-albinos.jpg",
       "refugeName": "Refuge de la Forêt",
       "id": 13
     },
@@ -150,18 +106,18 @@
       "age": 3,
       "sexe": "Mâle",
       "description": "Sky est un chien énergique et joueur, il adore courir et jouer dans la neige.",
-      "photo": "https://cdn.pixabay.com/photo/2018/02/14/10/18/siberian-husky-3153274_960_720.jpg",
+      "photo": "https://www.chien.fr/assets/img/000/067/300x169/husky-siberien.jpg",
       "refugeName": "L'Étoile Animale",
       "id": 14
     },
     {
-      "nom": "Simba",
+      "nom": "Winston",
       "espece": "Chat",
-      "race": "Bengal",
-      "age": 2,
+      "race": "Oriental Shorthair",
+      "age": 4,
       "sexe": "Mâle",
-      "description": "Simba est un chat actif et curieux, il aime grimper et chasser des jouets.",
-      "photo": "https://cdn.pixabay.com/photo/2017/08/29/13/42/cat-2691738_960_720.jpg",
+      "description": "Winston est un chat actif et curieux, il aime grimper et chasser des jouets.",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrN25M-alZsrDbGynX9Dia3AikOw6P63fPXQ&s",
       "refugeName": "Refuge du Bonheur",
       "id": 15
     },
@@ -172,7 +128,7 @@
       "age": 4,
       "sexe": "Mâle",
       "description": "Toby est un chien courageux et affectueux, il adore creuser et jouer avec des jouets.",
-      "photo": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_960_720.jpg",
+      "photo": "https://cdn.britannica.com/13/234213-050-45F47984/dachshund-dog.jpg",
       "refugeName": "Le Havre de Paix",
       "id": 16
     },
@@ -183,7 +139,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Peppy est un perroquet joyeux et chantant, elle aime siffler et jouer avec des miroirs.",
-      "photo": "https://cdn.pixabay.com/photo/2015/08/07/17/25/parrot-878617_960_720.jpg",
+      "photo": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/122709381/900",
       "refugeName": "Refuge des Montagnes",
       "id": 17
     },
@@ -194,7 +150,7 @@
       "age": 1,
       "sexe": "Mâle",
       "description": "Benny est un lapin doux et câlin, il adore se blottir dans des couvertures et être caressé.",
-      "photo": "https://cdn.pixabay.com/photo/2016/07/10/23/04/bunny-1502721_960_720.jpg",
+      "photo": "https://img.passeportsante.net/1200x675/2022-08-16/lapin-angora.webp",
       "refugeName": "L'Arche de Noé",
       "id": 18
     },
@@ -205,7 +161,7 @@
       "age": 1,
       "sexe": "Femelle",
       "description": "Goldie est un poisson rouge élégant, elle aime nager paisiblement dans son aquarium.",
-      "photo": "https://cdn.pixabay.com/photo/2016/11/02/15/15/goldfish-1798392_960_720.jpg",
+      "photo": "https://media.masterfisch.com/64247-thickbox_default/voile-japonais-papillon-rouge.jpg",
       "refugeName": "Le Refuge des Animaux",
       "id": 19
     },
@@ -216,7 +172,7 @@
       "age": 3,
       "sexe": "Femelle",
       "description": "Daisy est une chienne adorable et joueuse, elle aime les câlins et les jouets à mâcher.",
-      "photo": "https://cdn.pixabay.com/photo/2019/06/29/13/48/french-bulldog-4301402_960_720.jpg",
+      "photo": "https://www.zooplus.fr/magazine/wp-content/uploads/2018/09/franz%C3%B6sische-bulldogge-768x512.jpg",
       "refugeName": "Refuge de la Vallée",
       "id": 20
     },
@@ -227,7 +183,7 @@
       "age": 4,
       "sexe": "Femelle",
       "description": "Misty est une chatte élégante et indépendante, elle aime les endroits calmes et tranquilles.",
-      "photo": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg",
+      "photo": "https://www.sciencesetavenir.fr/assets/img/2022/04/05/cover-r4x3w1200-624c42597ba71-caracteristiques-du-chartreux.jpg",
       "refugeName": "Le Petit Refuge",
       "id": 21
     },
@@ -238,7 +194,7 @@
       "age": 5,
       "sexe": "Mâle",
       "description": "Pip est un perroquet espiègle et bavard, il aime imiter des sons et interagir avec les gens.",
-      "photo": "https://cdn.pixabay.com/photo/2015/03/26/09/54/dog-690568_960_720.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST5ExZJPXz9P3U0hefwvLoM9Pm8-az5oKXmg&s",
       "refugeName": "Refuge de la Mer",
       "id": 22
     },
@@ -249,7 +205,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Mochi est une lapine douce et curieuse, elle adore explorer et grignoter des légumes frais.",
-      "photo": "https://cdn.pixabay.com/photo/2016/07/10/23/04/bunny-1502721_960_720.jpg",
+      "photo": "https://gregrichdvm.com/wp-content/uploads/2022/11/holland-lop-Metairie-LA.jpg",
       "refugeName": "L'Asile des Animaux",
       "id": 23
     },
@@ -260,7 +216,7 @@
       "age": 1,
       "sexe": "Mâle",
       "description": "Spark est un poisson rouge vif et actif, il aime explorer les décorations de son aquarium.",
-      "photo": "https://cdn.pixabay.com/photo/2016/12/13/21/20/animal-1903580_960_720.jpg",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Goldfish_Ryukin.jpg",
       "refugeName": "Refuge des Bois",
       "id": 24
     },
@@ -271,7 +227,7 @@
       "age": 5,
       "sexe": "Mâle",
       "description": "Buddy est un chien intelligent et énergique, il adore les jeux d'agilité et les longues promenades.",
-      "photo": "https://cdn.pixabay.com/photo/2017/09/25/13/12/parrot-2784954_960_720.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjgBDQqyy8hMwgyy2laz6WWq0_YTLKVcf9-w&s",
       "refugeName": "La Maison des Animaux",
       "id": 25
     },
@@ -282,7 +238,7 @@
       "age": 3,
       "sexe": "Femelle",
       "description": "Snowy est une chatte joueuse et affectueuse, elle adore les jeux avec des plumes et les caresses.",
-      "photo": "https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_960_720.jpg",
+      "photo": "https://img.20mn.fr/IfnvJeUHRCKg9HbrX_6Iryk/1444x920_le-turc-de-van-est-originaire-de-turquie",
       "refugeName": "Refuge de la Plaine",
       "id": 26
     },
@@ -293,7 +249,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Tweety est un perroquet chanteur, elle adore siffler des mélodies et jouer avec des jouets suspendus.",
-      "photo": "https://cdn.pixabay.com/photo/2018/01/15/07/51/adorable-3083377_960_720.jpg",
+      "photo": "https://images.ctfassets.net/b85ozb2q358o/1NJVR3lqyKtPlq9mhwJarJ/97e377c858cbe5982f2bb6de4fa0b2f1/le-canari-jaune-1.jpg",
       "refugeName": "Le Refuge Ensoleillé",
       "id": 27
     },
@@ -304,7 +260,7 @@
       "age": 3,
       "sexe": "Mâle",
       "description": "Oreo est un furet curieux et joueur, il adore explorer et jouer avec des tunnels et des jouets.",
-      "photo": "https://cdn.pixabay.com/photo/2019/08/29/16/50/ferret-4438581_960_720.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQDGrg1Yzp6yo_E4Sgu17Zh9xxA4-qIskVQ&s",
       "refugeName": "Refuge de la Forêt",
       "id": 28
     },
@@ -315,7 +271,7 @@
       "age": 4,
       "sexe": "Mâle",
       "description": "Ace est un chien protecteur et loyal, il adore les exercices de dressage et les jeux de balle.",
-      "photo": "https://cdn.pixabay.com/photo/2016/11/02/15/15/goldfish-1798392_960_720.jpg",
+      "photo": "https://lechatsur.fr/wp-content/uploads/2022/05/AdobeStock_18979057-1024x901.jpeg",
       "refugeName": "L'Étoile Animale",
       "id": 29
     },
@@ -326,7 +282,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Whiskers est une chatte douce et calme, elle aime se prélasser et jouer avec des jouets en peluche.",
-      "photo": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_960_720.jpg",
+      "photo": "https://www.petrebels.com/fr/wp-content/uploads/sites/5/2023/12/image-100-1024x678.png",
       "refugeName": "Refuge du Bonheur",
       "id": 30
     },
@@ -337,7 +293,7 @@
       "age": 3,
       "sexe": "Mâle",
       "description": "Jack est un chien énergique et intelligent, il adore courir et jouer à rapporter des objets.",
-      "photo": "https://cdn.pixabay.com/photo/2018/02/14/10/18/siberian-husky-3153274_960_720.jpg",
+      "photo": "https://www.zooplus.fr/magazine/wp-content/uploads/2018/09/Jack-Russell-gl%C3%BCcklich.jpg",
       "refugeName": "Le Havre de Paix",
       "id": 31
     },
@@ -348,7 +304,7 @@
       "age": 5,
       "sexe": "Femelle",
       "description": "Kiki est un perroquet coloré et bavard, elle aime répéter des mots et jouer avec des objets brillants.",
-      "photo": "https://cdn.pixabay.com/photo/2015/03/26/09/54/dog-690568_960_720.jpg",
+      "photo": "https://www.abap.be/wp-content/uploads/2021/06/koppel-576x1024.jpg",
       "refugeName": "Refuge des Montagnes",
       "id": 32
     },
@@ -359,7 +315,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Fluffy est une lapine douce et câline, elle adore les caresses et les légumes frais.",
-      "photo": "https://cdn.pixabay.com/photo/2016/07/10/23/04/bunny-1502721_960_720.jpg",
+      "photo": "https://images.ctfassets.net/b85ozb2q358o/51WJietiCfGoU8uPkMrJo3/39b17b7102984df2a6fb22579c2c5842/quelle-maison-pour-lapin-nain-1.jpg",
       "refugeName": "L'Arche de Noé",
       "id": 33
     },
@@ -370,7 +326,7 @@
       "age": 1,
       "sexe": "Mâle",
       "description": "Bubbles est un poisson rouge joyeux, il aime nager autour des plantes et des rochers.",
-      "photo": "https://cdn.pixabay.com/photo/2016/12/13/21/20/animal-1903580_960_720.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo46xlgc8-Knd1I-vZYOgM20YZqX7-pMNa1Q&s",
       "refugeName": "Le Refuge des Animaux",
       "id": 34
     },
@@ -381,7 +337,7 @@
       "age": 4,
       "sexe": "Femelle",
       "description": "Sasha est une chienne indépendante et loyale, elle aime les promenades et les jeux de course.",
-      "photo": "https://cdn.pixabay.com/photo/2019/06/29/13/48/french-bulldog-4301402_960_720.jpg",
+      "photo": "https://media-mcetv.ouest-france.fr/wp-content/uploads/2020/05/squeezie-se-moque-des-chiens-de-ses-voisins-et-cest-hilarant-1000.jpg",
       "refugeName": "Refuge de la Vallée",
       "id": 35
     },
@@ -392,7 +348,7 @@
       "age": 3,
       "sexe": "Mâle",
       "description": "Shadow est un chat noir mystérieux, il aime jouer la nuit et se cacher dans des endroits sombres.",
-      "photo": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg",
+      "photo": "https://www.goodbro.fr/wp-content/uploads/Bombay.jpg",
       "refugeName": "Le Petit Refuge",
       "id": 36
     },
@@ -403,7 +359,7 @@
       "age": 4,
       "sexe": "Mâle",
       "description": "Pepper est un perroquet bavard et joueur, il aime interagir avec les gens et jouer avec des jouets colorés.",
-      "photo": "https://cdn.pixabay.com/photo/2018/01/15/07/51/adorable-3083377_960_720.jpg",
+      "photo": "https://lh4.googleusercontent.com/proxy/g1-vYqK9Ug5QNf4WyrNHbZ5m1-9NyXe-L5JVMSuTG_hP_TVME9HRGpWhh42fwOaVqDsul_fhV7gQfgjZOyTiRyXSLjyAjiV6J5ih7p9cTYOCdQ",
       "refugeName": "Refuge de la Mer",
       "id": 37
     },
@@ -414,7 +370,7 @@
       "age": 2,
       "sexe": "Mâle",
       "description": "Bunny est un lapin curieux et affectueux, il adore les câlins et les jeux avec des tunnels.",
-      "photo": "https://cdn.pixabay.com/photo/2019/08/29/16/50/ferret-4438581_960_720.jpg",
+      "photo": "https://rabbits.world/wp-content/uploads/2023/02/Lapin-belier-anglais.jpg",
       "refugeName": "L'Asile des Animaux",
       "id": 38
     },
@@ -425,7 +381,7 @@
       "age": 1,
       "sexe": "Femelle",
       "description": "Goldfish est un poisson rouge vif, elle aime nager avec grâce et explorer son environnement.",
-      "photo": "https://cdn.pixabay.com/photo/2016/11/02/15/15/goldfish-1798392_960_720.jpg",
+      "photo": "https://zoopolis.fr/wp-content/uploads/2022/05/memoire_poissons_Poisson-rouge-scaled-e1653642752449.jpg",
       "refugeName": "Refuge des Bois",
       "id": 39
     },
@@ -436,7 +392,7 @@
       "age": 5,
       "sexe": "Mâle",
       "description": "Chester est un chien amical et joueur, il aime les promenades et les jeux de rapport.",
-      "photo": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_960_720.jpg",
+      "photo": "https://www.chiens-de-france.com//photo/chiens/2023_08/chiens-Cocker-Spaniel-Anglais-5a1d4a75-a0ce-79c4-39bc-1f7b662388c1_min.jpg",
       "refugeName": "La Maison des Animaux",
       "id": 40
     },
@@ -447,7 +403,7 @@
       "age": 4,
       "sexe": "Femelle",
       "description": "Misty est une chatte douce et affectueuse, elle adore les câlins et jouer avec des peluches.",
-      "photo": "https://cdn.pixabay.com/photo/2018/02/14/10/18/siberian-husky-3153274_960_720.jpg",
+      "photo": "https://cdn.shopify.com/s/files/1/0265/1327/7008/files/chaton-ragdol.jpg?v=1711383303",
       "refugeName": "Refuge de la Plaine",
       "id": 41
     },
@@ -458,7 +414,7 @@
       "age": 3,
       "sexe": "Femelle",
       "description": "Sunny est un perroquet coloré et joyeux, elle aime chanter et jouer avec des jouets suspendus.",
-      "photo": "https://cdn.pixabay.com/photo/2015/03/26/09/54/dog-690568_960_720.jpg",
+      "photo": "https://redcdn.net/anipassion/ow_userfiles/plugins/animal/breed_image_58f8b0dd70dc5.jpg",
       "refugeName": "Le Refuge Ensoleillé",
       "id": 42
     },
@@ -469,7 +425,7 @@
       "age": 3,
       "sexe": "Femelle",
       "description": "Nibbles est un furet joueur et curieux, elle adore explorer et jouer avec des jouets interactifs.",
-      "photo": "https://cdn.pixabay.com/photo/2016/07/10/23/04/bunny-1502721_960_720.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNQmUqK4_IYJb6HG5Sv_8-NUsi8JGv0wP2kw&s",
       "refugeName": "Refuge de la Forêt",
       "id": 43
     },
@@ -480,7 +436,7 @@
       "age": 4,
       "sexe": "Mâle",
       "description": "Rex est un chien loyal et protecteur, il adore les exercices d'obéissance et les jeux de rapport.",
-      "photo": "https://cdn.pixabay.com/photo/2016/12/13/21/20/animal-1903580_960_720.jpg",
+      "photo": "https://accessinfos.wordpress.com/wp-content/uploads/2016/12/chien_agressif.jpg",
       "refugeName": "L'Étoile Animale",
       "id": 44
     },
@@ -491,7 +447,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Lily est une chatte élégante et affectueuse, elle adore les câlins et jouer avec des jouets en plumes.",
-      "photo": "https://cdn.pixabay.com/photo/2019/06/29/13/48/french-bulldog-4301402_960_720.jpg",
+      "photo": "https://img.freepik.com/photos-premium/mignon-jeune-chat-sphynx-couleur-bleu-blanc-aux-yeux-jaunes-assis-tapis-exterieur-levant_494000-930.jpg",
       "refugeName": "Refuge du Bonheur",
       "id": 45
     },
@@ -502,7 +458,7 @@
       "age": 3,
       "sexe": "Mâle",
       "description": "Scout est un chien curieux et énergique, il adore suivre des pistes et jouer à cache-cache.",
-      "photo": "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg",
+      "photo": "https://woog.app/wp-content/uploads/2021/09/Beagle-Harrier2.jpg",
       "refugeName": "Le Havre de Paix",
       "id": 46
     },
@@ -513,7 +469,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Sunny est un perroquet joyeux et bavard, elle aime chanter et interagir avec les gens.",
-      "photo": "https://cdn.pixabay.com/photo/2018/01/15/07/51/adorable-3083377_960_720.jpg",
+      "photo": "https://www.cliniqueveterinairedemarseillan.fr/Uploads/conseils/parrots-1729965_1920.jpg",
       "refugeName": "Refuge des Montagnes",
       "id": 47
     },
@@ -524,7 +480,7 @@
       "age": 2,
       "sexe": "Femelle",
       "description": "Marshmallow est une lapine douce et câline, elle adore les caresses et les légumes frais.",
-      "photo": "https://cdn.pixabay.com/photo/2016/12/13/21/20/animal-1903580_960_720.jpg",
+      "photo": "https://www.zoomalia.com/blogz/4560/angora-turc-blanc-conseils-experts.jpeg",
       "refugeName": "L'Arche de Noé",
       "id": 48
     },
@@ -535,7 +491,7 @@
       "age": 3,
       "sexe": "Mâle",
       "description": "Spike est un furet espiègle et joueur, il adore courir et explorer son environnement.",
-      "photo": "https://cdn.pixabay.com/photo/2018/01/15/07/51/adorable-3083377_960_720.jpg",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYmgvrkSJ-oi3srNFBfvyO-rWdRs9ksZgU9g&s",
       "refugeName": "Le Refuge des Animaux",
       "id": 49
     },
@@ -546,7 +502,7 @@
       "age": 1,
       "sexe": "Mâle",
       "description": "Spark est un poisson rouge actif, il aime explorer les recoins de son aquarium.",
-      "photo": "https://cdn.pixabay.com/photo/2019/06/29/13/48/french-bulldog-4301402_960_720.jpg",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Clear_shubunkin.jpg",
       "refugeName": "Refuge de la Vallée",
       "id": 50
     },
@@ -557,7 +513,7 @@
       "age": 3,
       "sexe": "Mâle",
       "description": "vrai furet",
-      "photo": "https://www.lesitedesanimaux.com/wp-content/uploads/2020/08/furet-rongeur.jpg",
+      "photo": "https://www.fureton.fr/wp-content/uploads/2016/07/IMG_0302.jpg",
       "refugeName": "Le Havre de Paix",
       "id": 51
     }
