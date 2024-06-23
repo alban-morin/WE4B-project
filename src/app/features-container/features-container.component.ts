@@ -27,24 +27,22 @@ export class FeaturesContainerComponent {
     },
     {
       
+      especes: 'Lapin',
       name: 'Lapins',
       description: 'Animal de compagnie très doux et affectueux.',
-      image: "https://www.zooplus.fr/magazine/wp-content/uploads/2021/10/AdobeStock_158340480-768x549-1.jpeg"
+      image: "https://www.vox-animae.com/wp-content/uploads/2023/10/Comportement-lapin.png"
     },
     {
-      name: 'Oiseaux',
-      description: 'Animal de compagnie très agréable à regarder et à écouter.',
-      image: "https://jardinage.lemonde.fr/images/dossiers/2019-10/mini/cacatoes-1-094128-650-325.jpg"
-    },
-    {
-      name: 'Poissons',
+      especes: 'Poisson Rouge',
+      name: 'Poissons Rouge',
       description: 'Animal de compagnie très relaxant et apaisant.',
-      image: "https://www.oobaooba.fr/img/post/22.jpg"
+      image: "https://lemagdesanimaux.ouest-france.fr/images/dossiers/2018-11/poisson-rouge-100122.jpg"
     },
     {
-      name: 'Reptiles',
-      description: 'Animal de compagnie très calme et discret. ne convient pas à tout le monde.',
-      image: "https://lemagdesanimaux.ouest-france.fr/images/dossiers/2019-02/mini/dragon-barbu-110546-650-400.jpg"
+      especes: 'Perroquet',
+      name: 'Perroquets',
+      description: 'Animal de compagnie très intelligent et bavard.',
+      image: "https://images.ctfassets.net/b85ozb2q358o/DduFF2ZO9LveIPAlydUSz/126149fe6d5b7002415f475ed4100979/les-couleurs-des-perroquets-1.jpg"
     }
     
   ];
